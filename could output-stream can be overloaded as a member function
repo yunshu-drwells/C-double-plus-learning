@@ -121,3 +121,4 @@ int  main()
 	si1 << cout << endl;
 	return 0;
 }
+//The output stream could be overloaded as a member function of the class.But it doesn’t meet human usage habits
