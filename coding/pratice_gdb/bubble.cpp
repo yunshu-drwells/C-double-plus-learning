@@ -1,5 +1,4 @@
 // 冒泡排序
-#include <vector>
 #include "sort.h"
 
 void bubbleSort(vector<int>& array){
