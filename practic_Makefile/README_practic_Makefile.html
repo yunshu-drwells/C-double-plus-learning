@@ -1,5 +1,5 @@
 <!DOCTYPE html><html><head>
-      <title>practic_Makefile</title>
+      <title>README_practic_Makefile</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
@@ -261,12 +261,12 @@ pre[data-line] .line-highlight[data-end]:after {
     </head>
     <body for="html-export">
       <div class="mume markdown-preview  ">
-      <p>&#x7ED9;<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/practic_Makefile/add.c">add.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/practic_Makefile/div.c">div.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/practic_Makefile/sub.c">sub.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/practic_Makefile/mult.c">mult.c </a><a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/practic_Makefile/main.c">main.c</a>&#x7EC3;&#x4E60;makefile&#x547D;&#x4EE4;</p>
+      <p>&#x7ED9;<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/practic_Makefile/add.c">add.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/practic_Makefile/div.c">div.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/practic_Makefile/sub.c">sub.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/practic_Makefile/mult.c">mult.c </a><a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/practic_Makefile/main.c">main.c</a>&#x7EC3;&#x4E60;makefile&#x547D;&#x4EE4;</p>
 <h6 class="mume-header" id="%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4%E7%BC%96%E8%AF%91">&#x4F7F;&#x7528;&#x547D;&#x4EE4;&#x7F16;&#x8BD1;&#xFF1A;</h6>
 
 <pre class="language-text">gcc add.c div.c sub.c mult.c main.c o app
 </pre>
-<h6 class="mume-header" id="a-hrefhttpsgithubcomyangzhiyuandrwellsc-double-plus-learningblobmastercodingpractic_makefilemakefile1makefile1a"><a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/coding/practic_Makefile/Makefile1">Makefile1</a>:</h6>
+<h6 class="mume-header" id="a-hrefhttpsgithubcomyangzhiyuandrwellsc-double-plus-learningblobmasterpractic_makefilemakefile1makefile1a"><a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practic_Makefile/Makefile1">Makefile1</a>:</h6>
 
 <pre data-role="codeBlock" data-info class="language-"><code>	app: sub.c add.c mult.c div.c main.c
 		gcc sub.c add.c mult.c div.c main.c -o app
@@ -279,7 +279,7 @@ pre[data-line] .line-highlight[data-end]:after {
 <blockquote>
 <p>&#x7B26;&#x5408;&#x89C4;&#x5219;&#xFF1A;&#x5982;&#x679C;&#x5B58;&#x5728;&#xFF0C;&#x6267;&#x884C;&#x547D;&#x4EE4;</p>
 </blockquote>
-<h6 class="mume-header" id="a-hrefhttpsgithubcomyangzhiyuandrwellsc-double-plus-learningblobmastercodingpractic_makefilemakefile2makefile2a"><a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/coding/practic_Makefile/Makefile2">Makefile2</a>:</h6>
+<h6 class="mume-header" id="a-hrefhttpsgithubcomyangzhiyuandrwellsc-double-plus-learningblobmasterpractic_makefilemakefile2makefile2a"><a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practic_Makefile/Makefile2">Makefile2</a>:</h6>
 
 <pre data-role="codeBlock" data-info class="language-"><code>app: sub.o add.o mult.o div.o main.o
 	gcc sub.c add.c mult.c div.c main.c -o app
@@ -324,7 +324,7 @@ gcc sub.o add.o mult.o div.o main.o -o app
 <p>&#x7B26;&#x5408;&#x57FA;&#x672C;&#x539F;&#x7406;&#xFF1A;&#x5982;&#x679C;&#x4F9D;&#x8D56;&#x7684;&#x65F6;&#x95F4;&#x6BD4;&#x76EE;&#x6807;&#x65F6;&#x95F4;&#x665A;&#xFF0C;&#x9700;&#x8981;&#x66F4;&#x65B0;&#x751F;&#x6210;&#x76EE;&#x6807;&#xFF1B;&#x5982;&#x679C;&#x4F9D;&#x8D56;&#x7684;&#x65F6;&#x95F4;&#x6BD4;&#x76EE;&#x6807;&#x65F6;&#x95F4;&#x65E9;&#xFF0C;&#x76EE;&#x6807;&#x4E0D;&#x9700;&#x8981;&#x66F4;&#x65B0;&#xFF0C;&#x5BF9;&#x5E94;&#x89C4;&#x5219;&#x4E2D;&#x7684;&#x547D;&#x4EE4;&#x4E0D;&#x9700;&#x8981;&#x88AB;&#x6267;&#x884C;</p>
 </blockquote>
 <p>make&#x65F6;&#x9047;&#x5230;Makefile:2: *** missing separator.  Stop.&#x95EE;&#x9898;&#x8BF7;&#x53C2;&#x8003;&#x6587;&#x7AE0;&#xFF1A;<a href="https://blog.csdn.net/qq_43808700/article/details/118241610">Makefile:2: *** missing separator. Stop.</a></p>
-<h6 class="mume-header" id="%E4%BD%BF%E7%94%A8%E5%8F%98%E9%87%8Fa-hrefhttpsgithubcomyangzhiyuandrwellsc-double-plus-learningblobmastercodingpractic_makefilemakefile3%E7%BC%96%E5%86%99makefile3a">&#x4F7F;&#x7528;&#x53D8;&#x91CF;<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/coding/practic_Makefile/Makefile3">&#x7F16;&#x5199;Makefile3</a>&#xFF1A;</h6>
+<h6 class="mume-header" id="%E4%BD%BF%E7%94%A8%E5%8F%98%E9%87%8Fa-hrefhttpsgithubcomyangzhiyuandrwellsc-double-plus-learningblobmasterpractic_makefilemakefile3%E7%BC%96%E5%86%99makefile3a">&#x4F7F;&#x7528;&#x53D8;&#x91CF;<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practic_Makefile/Makefile3">&#x7F16;&#x5199;Makefile3</a>&#xFF1A;</h6>
 
 <pre data-role="codeBlock" data-info class="language-"><code># &#x5B9A;&#x4E49;&#x53D8;&#x91CF;
 src=sub.o add.o mult.o div.o main.o
@@ -357,7 +357,7 @@ gcc -c div.c -o div.o
 gcc -c main.c -o main.o
 cc sub.o add.o mult.o div.o main.o -o app
 </pre>
-<h6 class="mume-header" id="%E4%BD%BF%E7%94%A8%E5%8C%B9%E9%85%8D%E6%A8%A1%E5%BC%8F%E7%AE%80%E5%8C%96makefile3-a-hrefhttpsgithubcomyangzhiyuandrwellsc-double-plus-learningblobmastercodingpractic_makefilemakefile4makefile4a">&#x4F7F;&#x7528;&#x5339;&#x914D;&#x6A21;&#x5F0F;&#xFF0C;&#x7B80;&#x5316;Makefile3-&gt;<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/coding/practic_Makefile/Makefile4">Makefile4</a></h6>
+<h6 class="mume-header" id="%E4%BD%BF%E7%94%A8%E5%8C%B9%E9%85%8D%E6%A8%A1%E5%BC%8F%E7%AE%80%E5%8C%96makefile3-a-hrefhttpsgithubcomyangzhiyuandrwellsc-double-plus-learningblobmasterpractic_makefilemakefile4makefile4a">&#x4F7F;&#x7528;&#x5339;&#x914D;&#x6A21;&#x5F0F;&#xFF0C;&#x7B80;&#x5316;Makefile3-&gt;<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practic_Makefile/Makefile4">Makefile4</a></h6>
 
 <pre data-role="codeBlock" data-info class="language-"><code>src=sub.o add.o mult.o div.o main.o
 target=app
@@ -377,7 +377,7 @@ cc -c div.c -o div.o
 cc -c main.c -o main.o
 cc sub.o add.o mult.o div.o main.o -o app
 </pre>
-<h6 class="mume-header" id="%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0%E7%BC%96%E5%86%99a-hrefhttpsgithubcomyangzhiyuandrwellsc-double-plus-learningblobmastercodingpractic_makefilemakefile5makefile5a">&#x4F7F;&#x7528;&#x51FD;&#x6570;&#x7F16;&#x5199;<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/coding/practic_Makefile/Makefile5">Makefile5</a></h6>
+<h6 class="mume-header" id="%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0%E7%BC%96%E5%86%99a-hrefhttpsgithubcomyangzhiyuandrwellsc-double-plus-learningblobmasterpractic_makefilemakefile5makefile5a">&#x4F7F;&#x7528;&#x51FD;&#x6570;&#x7F16;&#x5199;<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practic_Makefile/Makefile5">Makefile5</a></h6>
 
 <pre data-role="codeBlock" data-info class="language-"><code>src=$(wildcard ./*.c) # &#x901A;&#x8FC7;wildcard&#x51FD;&#x6570;&#x5728;./&#x8DEF;&#x5F84;&#x4E0B;&#x627E;&#x548C;*.c&#x5339;&#x914D;&#x7684;&#x5185;&#x5BB9;
 objs=$(patsubst %.c, %.o, $(src)) # &#x901A;&#x8FC7;patsubst&#x5C06;src&#x4E2D;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x5339;&#x914D;&#x5230;&#x7684;%.o&#x66FF;&#x6362;&#x6210;%.o

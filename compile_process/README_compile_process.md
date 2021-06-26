@@ -20,13 +20,13 @@ int main(){
 }
 ```
 
-<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/compile_process/test.c">test.c</a>
+<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/compile_process/test.c">test.c</a>
 
 ##### 预处理生成.i文件
 
 gcc -E test.c -o test.i
 
-<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/compile_process/test.i">test.i</a>
+<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/compile_process/test.i">test.i</a>
 
 
 ##### 预编译：这个过程主要的处理操作如下：
@@ -47,18 +47,18 @@ gcc -E test.c -o test.i
 
 gcc -S test.i -o test.S
 
-<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/compile_process/test.S">test.S</a>
+<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/compile_process/test.S">test.S</a>
 
 
 ##### 汇编生成.o文件
 
 gcc -c test.S -o test.o
 
-<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/compile_process/test.o">test.o</a>
+<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/compile_process/test.o">test.o</a>
 
 
 ##### 链接
 
 gcc test.o -o test.out
 
-<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/compile_process/test.out">test.out</a>
+<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/compile_process/test.out">test.out</a>

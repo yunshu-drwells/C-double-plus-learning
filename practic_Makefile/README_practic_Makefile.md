@@ -1,12 +1,12 @@
 
-给<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/practic_Makefile/add.c">add.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/practic_Makefile/div.c">div.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/practic_Makefile/sub.c">sub.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/practic_Makefile/mult.c">mult.c </a><a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/coding/practic_Makefile/main.c">main.c</a>练习makefile命令
+给<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/practic_Makefile/add.c">add.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/practic_Makefile/div.c">div.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/practic_Makefile/sub.c">sub.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/practic_Makefile/mult.c">mult.c </a><a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/tree/master/practic_Makefile/main.c">main.c</a>练习makefile命令
 
 ###### 使用命令编译：
 
 	gcc add.c div.c sub.c mult.c main.c o app
 
 
-###### <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/coding/practic_Makefile/Makefile1">Makefile1</a>:
+###### <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practic_Makefile/Makefile1">Makefile1</a>:
 
 ```
 	app: sub.c add.c mult.c div.c main.c
@@ -24,7 +24,7 @@ make一下，执行命令：
 > 符合规则：如果存在，执行命令
 
 
-###### <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/coding/practic_Makefile/Makefile2">Makefile2</a>:
+###### <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practic_Makefile/Makefile2">Makefile2</a>:
 
 
 ```
@@ -88,7 +88,7 @@ make时遇到Makefile:2: *** missing separator.  Stop.问题请参考文章：<a
 
 
 
-###### 使用变量<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/coding/practic_Makefile/Makefile3">编写Makefile3</a>：
+###### 使用变量<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practic_Makefile/Makefile3">编写Makefile3</a>：
 
 ```
 # 定义变量
@@ -130,7 +130,7 @@ make一下，执行命令：
 
 
 
-###### 使用匹配模式，简化Makefile3-><a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/coding/practic_Makefile/Makefile4">Makefile4</a>
+###### 使用匹配模式，简化Makefile3-><a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practic_Makefile/Makefile4">Makefile4</a>
 
 ```
 src=sub.o add.o mult.o div.o main.o
@@ -157,7 +157,7 @@ make一下，执行命令：
     cc sub.o add.o mult.o div.o main.o -o app
 
 
-###### 使用函数编写<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/coding/practic_Makefile/Makefile5">Makefile5</a>
+###### 使用函数编写<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practic_Makefile/Makefile5">Makefile5</a>
 
 
 

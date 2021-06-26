@@ -1,6 +1,6 @@
 
 
-### 给定测试文件：bubble.cpp main.cpp select.cpp sort.h main.cpp test.c演示调试
+### 给定测试文件：<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/pratice_gdb/bubble.cpp">bubble.cpp</a>  <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/pratice_gdb/select.cpp">select.cpp</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/pratice_gdb/sort.cpp">sort.h</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/pratice_gdb/main.cpp">main.cpp</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/pratice_gdb/test.cpp">test.c</a>演示调试
 
 #### GDB C
 
