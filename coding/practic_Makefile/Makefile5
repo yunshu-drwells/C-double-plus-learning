@@ -1,0 +1,18 @@
+src=$(wildcard ./*.c) # 通过wildcard函数在./路径下找和*.c匹配的内容
+objs=$(patsubst %.c, %.o, $(src)) # 通过patsubst将src中的字符串匹配到的%.o替换成%.o
+# 依赖文件过多书写起来不美观而且容易遗漏，这种方式在增加某个依赖文件时可以自动搜索到简洁又快捷
+target=app
+$(target):$(objs)
+	$(CC) $(objs) -o $(target)
+
+%.o:%.c
+	$(CC) -c $< -o $@
+
+.PHONY:clean 
+clean:
+	rm $(objs) -f # 删除所有生成的.o依赖文件;-f 强制删除
+
+# 后面的规则都是为第一条规则服务的，可以在bash中make clean随时执行clean命令，
+# 但是如果Makefile路径下有一个时间比较新的clean文件,clean命令后面没有依赖文件，因此时间是比较老的
+# 这时在bash中make clean就会提示clean已经是最新的了，clean命令就不能执行了
+# 因此需要.PYONY声明一下clean是伪目标，意思不会生成目标文件
