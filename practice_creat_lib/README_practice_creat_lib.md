@@ -1,5 +1,5 @@
 
-##### 示例：calc文件中给定<a href="/">add.c</a> <a href="/">div.c</a> <a href="/">mult.c</a> <a href="/">sub.c</a>制作静态库<a href="/">libcalc.a</a>以及使用
+##### 示例：calc文件中给定<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc/add.c">add.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc/div.c">div.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc/mult.c">mult.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc/sub.c">sub.c</a>制作静态库<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc/libcalc.a">libcalc.a</a>以及使用
 
 
 ###### 进入.c源文件路径
@@ -48,8 +48,7 @@
 
 
 
-
-##### 示例：calc文件中给定<a href="/">add.c</a> <a href="/">div.c</a> <a href="/">mult.c</a> <a href="/">sub.c</a>制作动态库<a href="/">libcalc.a</a>以及使用
+##### 示例：calc文件中给定<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc/add.c">add.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc/div.c">div.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc/mult.c">mult.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc/sub.c">sub.c</a> <a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc/main.c">main.c</a>制作动态库<a href="https://github.com/yangzhiyuanDrwells/C-double-plus-learning/blob/master/practice_creat_lib/calc//libcalc.so">libcalc.so</a>以及使用
 
 
 ###### 进入calc先删除制作静态库生成的.o目标文件和之前使用的动态库以及可执行文件
