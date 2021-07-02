@@ -1,0 +1,25 @@
+﻿  源.cpp
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(64,26): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(105): message : 查看对正在编译的 类 模板 实例化“__hashtable_iterator<Key,Value,ExtractKey>”的引用
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(64,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(64,1): error C2238: 意外的标记位于“;”之前
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(70,1): error C2061: 语法错误: 标识符“node”
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(103,6): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(103,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(103,1): error C2238: 意外的标记位于“;”之前
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(70,50): error C3861: “cur”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(70,54): error C3861: “n”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(70,2): error C3861: “tab”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(74,10): error C3861: “cur”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(78,9): error C3861: “node”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(78,21): error C3861: “cur”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(79,3): error C3861: “cur”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(79,9): error C3861: “cur”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(80,8): error C3861: “cur”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(83,12): error C3861: “cur”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(84,5): error C3861: “cur”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(96,10): error C3861: “cur”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(100,10): error C3861: “cur”: 找不到标识符
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(251,2): error C2976: “hashtable”: 模板 参数太少
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(109): message : 参见“hashtable”的声明
+D:\源库\源代码\比特\C++进阶\simulationOfHashtable链地址\simulationOfHashtable链地址\源.cpp(256,27): error C2079: “ht”使用未定义的 class“hashtable”

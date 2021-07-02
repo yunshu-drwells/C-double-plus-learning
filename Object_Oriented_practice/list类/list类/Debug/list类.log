@@ -1,0 +1,4 @@
+﻿  list.cpp
+D:\源库\源代码\比特\C++入门\list类\list类\list.cpp(88,28): error C2371:  “conit”: 重定义；不同的基类型
+D:\源库\源代码\比特\C++入门\list类\list类\list.cpp(81): message :  参见“conit”的声明
+D:\源库\源代码\比特\C++入门\list类\list类\list.cpp(90,9): error C2100:  非法的间接寻址

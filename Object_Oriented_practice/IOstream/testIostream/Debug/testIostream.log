@@ -1,0 +1,4 @@
+﻿  源.cpp
+D:\源库\源代码\比特\C++入门\testIostream\testIostream\源.cpp(25,13): error C2248: “Test::Test”: 无法访问 private 成员(在“Test”类中声明)
+D:\源库\源代码\比特\C++入门\testIostream\testIostream\源.cpp(11): message : 参见“Test::Test”的声明
+D:\源库\源代码\比特\C++入门\testIostream\testIostream\源.cpp(4): message : 参见“Test”的声明

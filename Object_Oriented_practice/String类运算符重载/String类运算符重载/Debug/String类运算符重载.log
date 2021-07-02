@@ -1,0 +1,10 @@
+﻿  main.cpp
+D:\源库\源代码\比特\C++入门\String类运算符重载\String类运算符重载\main.cpp(43,3): warning C4018:  “<”: 有符号/无符号不匹配
+D:\源库\源代码\比特\C++入门\String类运算符重载\String类运算符重载\main.cpp(139,20): warning C4018:  “<”: 有符号/无符号不匹配
+D:\源库\源代码\比特\C++入门\String类运算符重载\String类运算符重载\main.cpp(145,20): warning C4018:  “<”: 有符号/无符号不匹配
+D:\源库\源代码\比特\C++入门\String类运算符重载\String类运算符重载\main.cpp(152,20): warning C4018:  “<”: 有符号/无符号不匹配
+vldmtdll.lib(vld.obj) : error LNK2019: 无法解析的外部符号 __unlock，该符号在函数 "public: __thiscall VisualLeakDetector::~VisualLeakDetector(void)" (??1VisualLeakDetector@@QAE@XZ) 中被引用
+vldmtdll.lib(vld.obj) : error LNK2019: 无法解析的外部符号 __lock，该符号在函数 "public: __thiscall VisualLeakDetector::~VisualLeakDetector(void)" (??1VisualLeakDetector@@QAE@XZ) 中被引用
+vldmtdll.lib(vld.obj) : error LNK2019: 无法解析的外部符号 __imp__sprintf，该符号在函数 "private: void __thiscall VisualLeakDetector::dumpuserdatablock(struct _CrtMemBlockHeader const *)" (?dumpuserdatablock@VisualLeakDetector@@AAEXPBU_CrtMemBlockHeader@@@Z) 中被引用
+vldmtdll.lib(vld.obj) : error LNK2019: 无法解析的外部符号 __imp___vsnprintf，该符号在函数 "private: void __cdecl VisualLeakDetector::report(char const *,...)" (?report@VisualLeakDetector@@AAAXPBDZZ) 中被引用
+D:\源库\源代码\比特\C++入门\String类运算符重载\Debug\String类运算符重载.exe : fatal error LNK1120: 4 个无法解析的外部命令

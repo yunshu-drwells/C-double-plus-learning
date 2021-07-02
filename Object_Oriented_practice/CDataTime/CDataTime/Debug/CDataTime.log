@@ -1,0 +1,2 @@
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 _main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+D:\源库\源代码\比特\C++入门\CDataTime\Debug\CDataTime.exe : fatal error LNK1120: 1 个无法解析的外部命令
