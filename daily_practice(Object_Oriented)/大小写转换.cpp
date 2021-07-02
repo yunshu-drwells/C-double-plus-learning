@@ -9,10 +9,10 @@ int main()
 	len=strlen(a);
 	for(i=0;i<len;i++){
 		if(a[i]>='a'&&a[i]<='z'){
-			printf("%c",a[i]);
+			printf("%c",a[i]-32);
 		}
 		else if(a[i]>='A'&&a[i]<='Z'){
-			printf("%c",a[i]);
+			printf("%c",a[i]+32);
 		}
 	}
 	return 0;
