@@ -54,9 +54,9 @@ int main() {
                 int cfd = accept(lfd, (struct sockaddr *)&cliaddr, &len);
 
                 // 设置cfd属性非阻塞
-                int flag = fcntl(cfd, F_GETFL);
-                flag |= O_NONBLOCK;
-                fcntl(cfd, F_SETFL, flag);
+                int flag = fcntl(cfd, F_GETFL); //获取文件描述符标志
+                flag |= O_NONBLOCK; //加上非阻塞标志
+                fcntl(cfd, F_SETFL, flag); //设置文件描述符标志
 
                 epev.events = EPOLLIN | EPOLLET;    // 设置边沿触发
                 epev.data.fd = cfd;
@@ -69,7 +69,7 @@ int main() {
                 // 循环读取出所有数据
                 char buf[5];
                 int len = 0;
-                while( (len = read(curfd, buf, sizeof(buf))) > 0) {
+                while( (len = read(curfd, buf, sizeof(buf))) > 0) { //非阻塞文件描述符read没有数据时返回-1但是errnno是EAGAIN/EWOULDBLOCK
                     // 打印数据
                     // printf("recv data : %s\n", buf);
                     write(STDOUT_FILENO, buf, len);

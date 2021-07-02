@@ -27,13 +27,14 @@ int main() {
     struct epoll_event epev;
     epev.events = EPOLLIN;
     epev.data.fd = lfd;
-    epoll_ctl(epfd, EPOLL_CTL_ADD, lfd, &epev);
+    epoll_ctl(epfd, EPOLL_CTL_ADD, lfd, &epev); //将监听描述符添加到红黑树rbr中
 
     struct epoll_event epevs[1024];
 
     while(1) {
 
-        int ret = epoll_wait(epfd, epevs, 1024, -1);
+        int ret = epoll_wait(epfd, epevs, 1024, -1); 
+        //通过第二个输出型参数从内核的双向链表返回到用户态；得到需要事件响应的描述符数组
         if(ret == -1) {
             perror("epoll_wait");
             exit(-1);
@@ -66,7 +67,7 @@ int main() {
                     exit(-1);
                 } else if(len == 0) {
                     printf("client closed...\n");
-                    epoll_ctl(epfd, EPOLL_CTL_DEL, curfd, NULL);
+                    epoll_ctl(epfd, EPOLL_CTL_DEL, curfd, NULL); //将描述符从红黑树rbr中删除
                     close(curfd);
                 } else if(len > 0) {
                     printf("read buf = %s\n", buf);
